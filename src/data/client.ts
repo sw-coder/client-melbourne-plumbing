@@ -11,28 +11,26 @@
  */
 
 export const client = {
-  name: 'Small Business Starter',
-  email: 'hello@example.com',
-  phoneForTel: '555-867-5309',
-  phoneFormatted: '(555) 867-5309',
-  /** Business / contractor license number. Displayed in the header and footer
-   *  as a trust signal. Set to an empty string to hide it. */
-  license: 'Lic# 123456',
+  name: 'Melbourne Metro Plumbing',
+  email: 'info@melbournemetroplumbing.com.au',
+  phoneForTel: '0400123456',
+  phoneFormatted: '0400 123 456',
+  license: 'Lic# 982341',
   address: {
     lineOne: '123 Main Street',
-    lineTwo: 'Suite 100',
-    city: 'Denver',
-    state: 'CO',
-    zip: '80206',
-    country: 'US',
-    mapLink: 'https://maps.app.goo.gl/example',
+    lineTwo: '',
+    city: 'Donvale',
+    state: 'VIC',
+    zip: '3111',
+    country: 'AU',
+    mapLink: 'https://maps.google.com/?q=Donvale+VIC+3111',
   },
   socials: {
-    facebook: 'https://www.facebook.com/',
-    instagram: 'https://www.instagram.com/',
+    facebook: 'https://www.facebook.com/melbourneplumbing',
+    instagram: 'https://www.instagram.com/melbourneplumbing',
     google: 'https://www.google.com/maps',
   },
-  domain: 'https://www.example.com',
+  domain: 'https://melbournemetroplumbing.com.au',
 } as const;
 
 export type Client = typeof client;

@@ -14,12 +14,11 @@
 
 export const brand = {
   // ── Site Identity ──────────────────────────────────────────────────────────
-  name: 'Small Business Starter',
-  tagline: 'Professional service you can trust.',
-  description:
-    'A fast, mobile-first small-business website template built with Astro 6 and Tailwind v4. Fully customisable for any trade or service business.',
-  url: 'https://example.com',
-  locale: 'en_US',
+  name: 'Melbourne Metro Plumbing',
+  tagline: '24/7 Emergency Plumbing & Hot Water Services',
+  description: 'Licensed local plumbers servicing Donvale and Eastern Suburbs.',
+  url: 'https://melbournemetroplumbing.com.au',
+  locale: 'en_AU',
 
   // ── Fonts ──────────────────────────────────────────────────────────────────
   // To swap fonts: change the `name` values here AND update astro.config.mjs
@@ -33,7 +32,7 @@ export const brand = {
   // These values are written to CSS custom properties in theme.css.
   // Tailwind v4 @theme picks them up automatically.
   colors: {
-    primary:      '#1B3A6B',
+    primary:      '#0F172A',
     primaryLight: '#2563EB',
     primaryFg:    '#ffffff',
 
